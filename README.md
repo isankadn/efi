@@ -1,1 +1,1 @@
-# efi
+# EFICourses Open edX theme
