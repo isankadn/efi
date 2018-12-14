@@ -1,0 +1,47 @@
+## mako
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%namespace name='static' file='../static_content.html'/>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Honor Code")}</%block>
+
+<div class="page-heading">
+    <h1>${_("Honor Code")}</h1>
+</div>
+<section class="static-content">
+    <div class="grid-manual grid-container">
+        <div class="inner-container">
+            <div class="row">
+
+                <div class="col col-12 sm-col-12 md-col-9">
+                    <h3><strong>Effective Date:</strong> 1 August, 2018</h3>
+
+
+                    <h1>Honour Code</h1>
+
+
+                    <p>You are joining a global community of KahmaVet online learners and you are expected to abide by
+                        this Honour Code. In order to participate in KahmaVet courses you must agree to this Honour
+                        Code. By using this website, you agree to complete all courses on your own unless the course
+                        team has indicated that you may collaborate with other learners on the course. You may not let
+                        anybody else use your KahmaVet account or assist you in taking courses, and you may not register
+                        dummy accounts or take part in any activity that would be deemed harmful to the progress or
+                        enjoyment of the course by other learners or the course team of KahmaVet employees. If you have
+                        been found guilty of breaking this Honour Code, your account will be terminated in line with the
+                        terms of use of this website. We thank you for accepting this Honour Code and hope you enjoy
+                        many hours of learning with us.</p>
+
+
+                    <p>We reserve the right to update or change this Honour Code at any time and you agree to accept
+                        those changes by using this website. Keep up to date by visiting this page regularly.</p>
+
+
+                    <p>
+                        <bold>Updated: 9 August, 2018</bold>
+                    </P>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
