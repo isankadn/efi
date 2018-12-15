@@ -2,6 +2,11 @@
 <%page expression_filter="h"/>
 <%namespace name='static' file='static_content.html'/>
 <%namespace file='main.html' import="login_query"/>
+
+% if user.is_authenticated():
+<p></p>
+<br/>
+% else:
 <section class="bottom-banner-section">
         <div class="grid-manual bottom-banner-container">
             <div class="bottom-banner-text">
@@ -14,6 +19,7 @@
             </div>
         </div>
     </section>
+% endif
 <section class="footer-main">
     <div class="grid-manual grid-container">
         <div class="row">
