@@ -1224,7 +1224,7 @@ header.header-main {
         color: #ffffff;
       }
       .btn {
-        background-color: #554083;
+        background-color: #814895;
       }
     }
   }
@@ -1517,6 +1517,9 @@ header.header-main {
     }
   }
   .mission-statement {
+    .btn{
+      background-color: #814895;
+    }
     
     img {
       //border-radius: 50%;
@@ -1987,7 +1990,7 @@ header.header-main {
     background-position: left bottom;
     background-repeat: no-repeat;
     .footer-logo {
-      text-align: left;
+      text-align: left !important;
     }
   }
 }
@@ -1999,7 +2002,7 @@ header.header-main {
     background-position: left bottom;
     background-repeat: no-repeat;
     .footer-logo {
-      text-align: left;
+      text-align: left !important;
     }
   }
 }
